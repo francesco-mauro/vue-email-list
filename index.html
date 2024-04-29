@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- vue  -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+</head>
+
+<body>
+
+
+    <div id="app">
+        <h1>Generated Emails</h1>
+        <ul>
+            <li v-for="email in emails">{{ email }}</li>
+        </ul>
+    </div>
+
+
+    <!-- axios -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
